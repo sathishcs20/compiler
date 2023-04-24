@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>compiler</title>
+</head>
+<body>
+    <h1>CODE COMPILE EXECUTE</h1>
+    <div class="whole">
+     
+    <div class="outer">
+        <form id="myform" method="post"  action="compilecode">
+        <div class="left">
+           <div class="top"> 
+            
+       
+            <div class="inner">  
+                <select id="lang"name="lang" style="height:48px;width:50px;margin-top:1px;"><option value="C">C</option><option value="C++">C++</option><option value="Python">Python</option></select>
+                <input  type="submit" id="run" style=" height:50px;width:50px;background-color:lime;"value="Run" name="submit"/>
+            </div>
+        </div>   
+        
+         <textarea id="code" name="code" id="" cols="100" rows="33" style="">Code Here</textarea>
+            
+        <div class="bottom"> <div class="bottominner"><span>Compile with Input</span> :
+            <input type="radio" name="inputRadio" id="inputRadio" value="true"/>Yes
+            <input type="radio" name="inputRadio" id="inputRadio" value="false"/>No</div></div>
+        </div>
+        <div class="right">
+            <div class="ltop"><h3>INPUT</h3></div>
+            <textarea name="input" id="input" cols="75" rows="15">Provide Input</textarea>
+            <div class="ltop"><h3>OUTPUT</h3></div>
+            <textarea name="output" id="output" cols="75" rows="15">{{output}}</textarea>
+        </div>
+        
+        </form>
+    </div>
+    </div>
+    <span></span>
+</body>
+</html>
+ 
